@@ -1,0 +1,13 @@
+.breadcrum{
+    width: 100%;
+   
+}
+.location{
+    display: flex;
+   align-items: center;
+    font-size: 0.8rem;
+}
+.location img{
+    width: 8px;
+    margin-right: 1px;
+}

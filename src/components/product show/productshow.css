@@ -1,0 +1,126 @@
+.productshow{
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 50px;
+}
+.product-leftside{
+    display: flex;
+    margin: 0px 50px;
+}
+.product-imagebig img{
+    width: 348px;
+    margin-left: 10px;
+}
+.product-sideimage{
+    display: flex;
+    flex-direction: column;
+    row-gap: 19px;
+    width: 75px;
+}
+.product-rightside{
+    width: 40%;
+}
+.product-rightside h4{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.product-price{
+    display: flex;
+    column-gap:20px;
+   
+
+}
+.product-price p:first-child{
+    text-decoration: line-through;
+    
+}
+.product-price p:nth-child(2){
+    color: #ff4141
+}
+.size{
+    display: flex;
+    column-gap: 30px;
+}
+.size div{
+    background: #fce9e9;
+    padding: 15px;
+    border-radius: 5px;
+}
+button{
+    padding: 6px 22px;
+    background: #ff4141;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: #ff2222;
+}
+.product-category {
+   margin-top: 20px;
+}
+.product-category p{
+   margin: 0;
+}
+@media (max-width:990px){
+    .productshow{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .product-leftside{
+     margin-bottom: 20px;
+    }
+    .product-rightside{
+        width: 400px;
+    }
+    .product-price{
+        
+        justify-content: center;
+        
+    }
+    .size{
+        justify-content: center;
+    }
+}
+@media (max-width:530px){
+    .product-imagebig img{
+        width: 252px;
+    }
+    .product-sideimage{
+        row-gap: 14px;
+        width: 54px;
+    }
+    .size{
+        column-gap: 1%;
+    }
+    .size div{
+        font-size: 0.8rem;
+        background: #fce9e9;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    button{
+        padding: 6px 22px;
+        font-size: 0.8rem;
+
+    }
+}
+@media (max-width:390px){
+    .product-imagebig img{
+        width: 200px;
+    }
+    .product-sideimage{
+        row-gap: 14px;
+        width: 41px;
+    }
+    .product-rightside h4{
+        font-size: 1.2rem;
+        
+    }
+    .product-rightside{
+        width:90%;
+    }
+}

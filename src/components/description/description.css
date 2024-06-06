@@ -1,0 +1,32 @@
+.discription{
+    width: 80%;
+    margin: 50px auto;
+    /* border: 2px solid red; */
+}
+.description-header{
+    display:flex;
+    justify-content: start;
+}
+.description-name{
+    margin:0px;
+    padding: 15px 15px;
+    border: 2px solid rgb(221, 219, 219);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.description-review{
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left: -2px;
+    padding: 15px 15px;
+    border: 2px solid rgb(221, 219, 219);
+    background-color: rgb(226, 225, 225);
+}
+.description-content{
+    border: 2px solid rgb(221, 219, 219);
+    margin-top: -2px;
+    padding: 22px 22px;
+}
+.description-content p{
+    font-size: 0.9rem;
+}

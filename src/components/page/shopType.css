@@ -1,0 +1,8 @@
+#banner{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.container{
+margin-top: 32px;
+}

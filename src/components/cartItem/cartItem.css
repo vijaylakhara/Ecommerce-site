@@ -1,0 +1,114 @@
+.cartItems{
+    width: 70%;
+    margin: 25px auto;
+    display: block;
+    text-align: center;
+
+}
+.head-item{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+
+}
+.cartItem-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+.cartItem-content{
+ width: 100%;
+  
+}
+.cartItem-list p{
+    width: 13%;
+    font-size:0.8rem ;
+    position: relative;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.cart-btn{
+    margin:0;
+    /* padding: 0; */
+    background-color: none !important;
+    position: relative;
+    right: 35px;
+    /* bottom: 8px; */
+}
+.remove-icon{
+    margin-right: 43px;
+}
+.remove-icon:hover{
+    cursor: pointer;
+}
+.total-price{
+    right: 26px;
+  
+}
+.cart-price{
+    left: -39px;
+
+}
+.cart-img{
+  margin-left: 18px;
+}
+hr{
+    margin: 7px 0px !important;
+}
+ /* other side css part */
+ .cart-otherSide{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+ }
+
+ .cart-sutotal{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 25rem;
+ }
+ .cart-shipping{
+    display: flex;
+    justify-content: space-between;
+ }
+ .Total-cost{
+    display: flex;
+    justify-content: space-between;
+ }
+ .btn-coupon{
+    background-color: black;
+    color: white;
+    padding: 6px 12px;
+    margin-left: 8px;
+    border-radius: 5px;
+    transition: 0.3s;
+ }
+ .btn-coupon:hover{
+    background-color: rgb(36, 35, 35);
+ }
+ /* .proceed-btn{
+    font-size: 0.5rem;
+ } */
+ .proceed-btn{
+    font-size: .8rem;
+ }
+ input{
+    border: none;
+    padding: 5px 14px;
+  background-color: rgb(248, 248, 248);
+ }
+ .cart-total{
+    margin-top: 35px;
+  
+ }
+
+ @media (max-width:1200px) {
+    .cart-otherSide{
+        flex-direction: column;
+    }
+    
+ }
